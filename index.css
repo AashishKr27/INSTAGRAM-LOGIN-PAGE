@@ -1,0 +1,111 @@
+body{
+    background-image: url("https://images5.alphacoders.com/123/1230943.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 30em;
+    width: 22em;
+    text-align: center;
+    background-color: #110c738c;
+    box-shadow: 3px 0px 75px 30px #00a9ffdb;
+    animation-name: name;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+.in{
+    animation-name: in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes name {
+    from{
+        margin-left: -105em;
+    }
+    to{
+        margin-left: 0em;
+    }
+}
+@keyframes in {
+    from{
+        margin-bottom: 105em;
+    }
+    to{
+        margin-bottom: 0em;
+    }
+}
+.inp{
+    width: 20em;
+    height: 2.5em;
+    border-radius: 10px;
+    border: none;
+}
+#fnt{
+    filter: invert(100%);
+    margin-top: -10px;
+    width: 12em;
+}
+#a1{
+    margin-top: 40px;
+}
+#a2{
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 15px;
+    width: 17.4rem;
+    height: 2.7em;
+    background-color: #0099ff;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.or{
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+#f{
+    text-decoration: none;
+    margin-left: 2px;
+    color: white;
+}
+#k{
+    width: 2em;
+    margin-right: 2px;
+}
+#frgt{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.forget{
+    margin-top: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #006aff;
+}
